@@ -9,42 +9,46 @@
 <body>
 	<header>
 		<div class='color'>
-			<h1>Contact Information Form</h1>
-			<p>Please fill out the boxes below</p>
+			<h3>Contact Form</h3>
+			<p>Please fill in your information and we will be sure to reply you in no time</p>
 		</div>
 	</header>
   	<div class="row">
-    	<div class="box">
-    		<label>First Name: </label>
+    	<div class="no box">
+    		<label>Your Name: </label>
     	</div>
-    	<div class="box2">
-    		<input type="text" name="firstname" placeholder="First-Name">
+    	<div class="box">
+    		<input type="text" name="firstname" placeholder="First-Name" required>
+    		<input type="text" name="lastname" placeholder="Last-Name" required>
+    </div>
     </div>
     <div class="row">
-    	<div class="box">
-    		<label>Last Name: </label>
+    	<div class="no box">
+    		<label>Your Email: </label>
     	</div>
-    	<div class="box2">
-    		<input type="text" name="lastname" placeholder="Last-Name">
+    	<div class="box1">
+    		<input type="text" name="email" placeholder="example@gmail.com" required>
     </div>
     <div class="row">
-    	<div class="box">
-    		<label>Email: </label>
-    	</div>
-    	<div class="box2">
-    		<input type="text" name="email" placeholder="example@gmail.com">
-    </div>
-    <div class="row">
-    	<div class="box">
+    	<div class="no box">
     		<label>Phone number: </label>
     	</div>
     	<div class="box2">
-    		<input type="number" name="phone" placeholder="(xxx)-xxx-xxxx">
+    		<input type="number" name="phone" placeholder="(###)" required>
+    		<input type="number" name="phone" placeholder="###" required>
+    		<input type="number" name="phone" placeholder="####" required>
     </div>
     <div class="row">
-    	<div class="box">
+    	<div class="no box">
     		<label>Date of Birth: </label>
     	</div>
-    	<div class="box2">
-    		<input type="date" name="birth_field">
+    	<div class="box1">
+    		<input type="date" name="birth_field" required>
+    </div>
+        <div class="row">
+    	<div class="no box">
+    		<label>Message: </label>
+    	</div>
+    	<div class="box3">
+    		<input type="text" name="message" placeholder="type in any message you have for us">
     </div>
