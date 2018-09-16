@@ -233,16 +233,40 @@ div{
   }
 
   body{
-  border: 3px solid white;
-  padding: 1%;
+  padding-left: 7%;
+  padding-right: 7%;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 1%;
   margin-bottom: 1%; 
 }
 
-
-
 input[type=text], select {
   border-radius: 9px;
 }
+
+input[type=text1], select {
+  width: 80px;
+  border-radius: 9px;
+}
+
+input[type=text2], select {
+  width: 400px;
+  height: 150px;
+  border-radius: 9px;
+}
+
+input[type=submit]{
+   border: 2px: white;
+   background-color: transparent;
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-bottom: 1%;
+   padding-top: 1%;
+   border-radius: 9%;
+   color: white;
+   margin-top: 1% 
+
+}
+
+  border: 3px solid white;
