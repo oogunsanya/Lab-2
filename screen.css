@@ -310,8 +310,8 @@ input[type=tel], select {
 }
 
 input[name="message"], select {
-  width: 200px;
-  height: 600px;
+  width: 180px;
+  height: 90px;
   border-radius: 9px;
 }
 
