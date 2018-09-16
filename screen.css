@@ -310,8 +310,8 @@ input[type=text1], select {
 }
 
 input[type=text2], select {
-  width: 180px;
-  height: 90px;
+  width: 200px;
+  height: 600px;
   border-radius: 9px;
 }
 
