@@ -245,19 +245,19 @@ input[type=text], select {
   border-radius: 9px;
 }
 
-input[type=text1], select {
+input[type=tel], select {
   width: 80px;
   border-radius: 9px;
 }
 
-input[type=text2], select {
+input[type=search], select {
   width: 400px;
   height: 150px;
   border-radius: 9px;
 }
 
-input[type=submit]{
-   border: 2px: white;
+input[type=submit], select {
+   border: 2px white;
    background-color: transparent;
    padding-left: 2%;
    padding-right: 2%;
@@ -304,19 +304,19 @@ input[type=text], select {
   border-radius: 9px;
 }
 
-input[type=text1], select {
+input[type=tel], select {
   width: 40px;
   border-radius: 5px;
 }
 
-input[type=text2], select {
+input[type=search], select {
   width: 200px;
   height: 600px;
   border-radius: 9px;
 }
 
-input[type=submit]{
-   border: 1px: white;
+input[type=submit], select{
+   border: 1px white;
    background-color: transparent;
    padding-left: 1%;
    padding-right: 1%;
