@@ -326,6 +326,11 @@ input[type=submit], select{
    margin-top: 1% 
 
 }
+input[name="birth"], select {
+  width: 1000px;
+  height: 50px;
+  border-radius: 9px;
+}
 
 }
 
